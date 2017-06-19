@@ -1,0 +1,8 @@
+break __libc_start_main
+break *0x0000000000400701
+break *0x00000000004006f7
+break *_int_malloc
+break *_int_free
+break *_int_memalign
+break *_int_realloc
+
