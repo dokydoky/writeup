@@ -1,9 +1,0 @@
-break *_int_malloc
-disable $bpnum
-break *_int_free
-disable $bpnum
-break *_int_memalign
-disable $bpnum
-break *_int_realloc
-disable $bpnum
-

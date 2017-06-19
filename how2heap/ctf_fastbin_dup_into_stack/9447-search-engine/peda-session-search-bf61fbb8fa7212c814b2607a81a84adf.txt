@@ -1,6 +1,0 @@
-break *_int_malloc
-break *_int_free
-break *_int_memalign
-break *_int_realloc
-break *0x400896
-
