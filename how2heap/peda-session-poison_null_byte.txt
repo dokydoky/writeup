@@ -1,0 +1,15 @@
+break poison_null_byte.c:83
+break main
+break *_int_malloc
+disable $bpnum
+break *_int_free
+disable $bpnum
+break *_int_memalign
+disable $bpnum
+break *_int_realloc
+disable $bpnum
+break *_int_malloc
+break *_int_free
+break *_int_memalign
+break *_int_realloc
+

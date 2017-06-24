@@ -17,6 +17,7 @@ int main()
 	uint8_t* b1;
 	uint8_t* b2;
 	uint8_t* d;
+	uint8_t* e;
 
 	printf("We allocate 0x100 bytes for 'a'.\n");
 	a = (uint8_t*) malloc(0x100);
@@ -34,6 +35,9 @@ int main()
 
 	c = (uint8_t*) malloc(0x100);
 	printf("c: %p\n", c);
+
+	e = (uint8_t*) malloc(0x100);
+	printf("e: %p\n", e);
 
 	uint64_t* b_size_ptr = (uint64_t*)(b - 8);
 
